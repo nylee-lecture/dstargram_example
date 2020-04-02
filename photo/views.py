@@ -25,7 +25,7 @@ class PhotoUPloadView(CreateView):
 class PhotoDeleteView(DeleteView):
     model = Photo
     success_url = '/'
-    template_name = 'photo/delete1.html'
+    template_name = 'photo/delete.html'
 
 class PhotoUpdateView(UpdateView):
     model = Photo
